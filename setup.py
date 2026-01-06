@@ -9,12 +9,12 @@ setup(
         "pyspark",
         "awswrangler"  # Useful for AWS data handling
     ],
-    author="Velmurugan",
-    author_email="your.email@example.com",
+    author="Thava ManiKandan",
+    author_email="rthavamanidataeng@gmail.com",
     description="AWS Glue ETL pipeline for data processing",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/glue_etl_pipeline",
+    url="https://github.com/thava-data007/customer_analytics_repo",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
