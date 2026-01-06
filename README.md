@@ -9,14 +9,14 @@ python setup.py bdist_wheel
 Copy wheel file to S3
 -----------------------
 
-aws s3 cp dist/customer_analytics-0.1.0-py3-none-any.whl s3://may-2025-training-bucket/code/customer_analytics/
+aws s3 cp dist/customer_analytics-0.1.0-py3-none-any.whl s3://may-mani-2025-training-bucket/code/customer_analytics/
 
 
 
 Copy glue script files 
 -----------------------
 
-aws s3 cp glue_upload_script s3://may-2025-training-bucket/code/customer_analytics/ --recursive
+aws s3 cp glue_upload_script s3://may-mani-2025-training-bucket/code/customer_analytics/ --recursive
 
 
 
