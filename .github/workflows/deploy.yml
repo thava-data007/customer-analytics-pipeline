@@ -52,4 +52,4 @@ jobs:
       run: aws s3 cp "$WHEEL_FILE" s3://may-mani-2025-training-bucket/code/customer_analytics/
 
     - name: copy template file 
-      run: aws s3 cp glue_upload_script s3://may-mani-2025-training-bucket /code/customer_analytics/ --recursive
+      run: aws s3 cp glue_upload_script s3://may-mani-2025-training-bucket/code/customer_analytics/ --recursive
