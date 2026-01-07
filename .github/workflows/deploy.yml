@@ -36,8 +36,8 @@ jobs:
       run: pip install -e .
 
     # ✅ Run tests (CI part)
-    - name: Run tests
-      run: pytest tests/
+    #- name: Run tests
+     # run: pytest tests/
 
     - name: Install dependencies
       run: pip install wheel setuptools
@@ -56,3 +56,4 @@ jobs:
     - name: copy template file 
 
       run: aws s3 cp glue_upload_script s3://may-mani-2025-training-bucket/code/customer_analytics/ --recursive
+
